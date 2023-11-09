@@ -32,14 +32,12 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-   //h3KKxdGO6oM1Cm55j
-//template_82ct9ps
-//service_ba86wds
+
     
     emailjs
       .send(
-        'service_ba86wds',
-        'template_82ct9ps',
+        'service_1dwi2ra',
+        'template_gueuqah',
         {
           from_name: form.name,
           to_name: "Hady Hesham",
@@ -47,7 +45,7 @@ const Contact = () => {
           to_email: "hadyhesham54@gmail.com",
           message: form.message,
         },
-        'h3KKxdGO6oM1Cm55j'
+        'HejuU95UPE3IPer4_'
       )
       .then(
         () => {
