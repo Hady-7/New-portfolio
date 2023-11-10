@@ -19,9 +19,10 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  financial,
   jobit,
-  tripguide,
+  moviesflex,
+  weather,
   threejs,
 } from "../assets";
 
@@ -183,28 +184,28 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Priyansh has very visible passion for his idea and it was great to witness his clarity of thoughts. He is also a good team player, ready to mould his skills if that helps him improve. These are some qualities that can go a long way in charting out a path towards success. I wish him the very best",
-    name: "Khyati Bhatt",
+      "Hady has very visible passion for his idea and it was great to witness his clarity of thoughts. He is also a good team player, ready to mould his skills if that helps him improve. These are some qualities that can go a long way in charting out a path towards success. I wish him the very best",
+    name: "Ayman Abdelrahman",
     designation: "CEO",
-    company: "Simply Body Talk",
+    company: "Vijua",
     image:
       "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
   },
   {
     testimonial:
-      "I highly recommend Priyansh for any future endeavors. His dedication, hard work, and passion for his work are truly inspiring. Priyansh is a rare talent, and I am confident that he will continue to make great strides in his career and achieve even greater success in the future.",
-    name: "Anup Robins",
-    designation: "HR Business Partner",
-    company: "Experian",
+      "I highly recommend Hady for any future endeavors. His dedication, hard work, and passion for his work are truly inspiring. Priyansh is a rare talent, and I am confident that he will continue to make great strides in his career and achieve even greater success in the future.",
+    name: "Shehab",
+    designation: "Senior Technical Talent Acquisition ",
+    company: "Valu",
     image:
       "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
   },
   {
     testimonial:
-      "This guy has what it takes for the first unicorn. Just wait and watch.",
-    name: "Aman Sharma",
-    designation: "CTO",
-    company: "Dinnerfy",
+      "It was my pleasure to work with Hady. He is a passionate , discipline, enthusiastic and great teammate. Hady displayed great talents in angular, typscript and React js. He is also good with troubleshooting. I am absolutely confident that Hady would be a great fit for frontend developer position!",
+    name: "Hafsa Ahmed",
+    designation: "Frontend Developer",
+    company: "We Build Websites LLC",
     image:
       "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
   },
@@ -212,72 +213,100 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Volt",
+    name: "Financial Dashboard",
     description:
-      "Volt is a comprehensive portfolio management software which offers a holistic solution for managing startup portfolios. Seamlessly manage your portfolio, track investments, and analyze performance all in one place with Volt's latest industry standards and best practices. Say goodbye to inefficiencies, embrace Volt!",
+      " a simplified version of full-stack Next.js applications the financial dashboard that has : A public home page. , A login page. , Dashboard pages that are protected by authentication. , The ability for users to add, edit, and delete invoices. The dashboard will also have an accompanying database a PostgreSQL ",
     tags: [
       {
-        name: "web dev",
+        name: "Next TS",
         color: "blue-text-gradient",
       },
       {
-        name: "data visualization",
+        name: "data fetching",
         color: "green-text-gradient",
       },
       {
-        name: "software engineering",
+        name: "CRUD system",
         color: "pink-text-gradient",
+      },{
+        name: "a PostgreSQL",
+        color: "orange-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/StarticField",
+    image: financial,
+    source_code_link: "https://github.com/Hady-7/Financial-dashboard",
   },
   {
-    name: "PredCo",
+    name: "Weather",
     description:
-      "Web application that processes real-time data coming from IoT sensors installed in various industries. It serves as a powerful tool for Predictive Maintenance, enabling the detection of potential issues and triggering alerts. By optimizing scheduled maintenance activities, the application helps companies achieve significant cost savings.",
+      "Simple App for Weather, your all-in-one weather companion that brings meteorological information to life. Whether you're planning your day, a weekend getaway, or a week-long adventure, WeatherSphere provides accurate and detailed weather forecasts to keep you informed and prepared.",
     tags: [
       {
-        name: "internet of things",
+        name: "React JS",
+        color: "green-text-gradient",
+      },{
+        name: "Weather API",
         color: "blue-text-gradient",
       },
       {
-        name: "elastic search",
-        color: "green-text-gradient",
-      },
-      {
-        name: "kibana",
+        name: "Data fetching",
         color: "pink-text-gradient",
       },
       {
-        name: "aws-ec2",
+        name: "web development",
+        color: "green-text-gradient",
+      },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/Hady-7/weather",
+  },
+  {
+    name: "CliniDo",
+    description:
+      "CliniDo a website to solve the problem that patients face in finding and booking an appointment with the appropriate medical authority, whether it is a doctor, hospital, radiology center or analysis laboratory, in addition to the possibility of saving all the medical history Techonlogy used in App : Angular TS and Firebase ",
+    tags: [
+      {
+        name: "Angular TS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Symantic HTML5",
         color: "orange-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/PriyanshNegi/PredCo",
+    source_code_link: "https://github.com/Hady-7/CliniDo",
   },
   {
-    name: "Prompt-X",
+    name: "Moviesflex",
     description:
-      "Prompt-X is an undergoing project designed to train language models and enhance prompt engineering. It will offer productivity analytics, personalized recommendations and insights for Chat GPT users. With its focus on training LLM models, Prompt-X is a powerful tool for optimizing workflows and advancing natural language understanding. ",
+      "Simple Movies app to Enjoy a vast library of movies at your fingertips. Cinemate integrates with popular streaming services, allowing you to watch your favorite films trailer and it's rating without switching between multiple apps. and Stay ahead of the curve with information on upcoming movie releases. ",
     tags: [
       {
-        name: "machine learning",
+        name: "movies API",
         color: "blue-text-gradient",
       },
       {
-        name: "web dev",
+        name: "web development",
         color: "green-text-gradient",
       },
       {
-        name: "prompt engineering",
+        name: "Data fetching",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/PriyanshNegi/Prompt-X-Website",
+    image: moviesflex,
+    source_code_link: "https://github.com/Hady-7/Moviesflix",
   },
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };

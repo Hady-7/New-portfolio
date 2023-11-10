@@ -26,9 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import financial from "./financial.png";
+import jobit from "./jobit.jpg";
 import tripguide from "./tripguide.png";
+import weather from "./weather.png";
+import moviesflex from "./moviesflex.png";
 
 export {
   logo,
@@ -56,7 +58,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  financial,
   jobit,
   tripguide,
+  weather,
+  moviesflex
 };
