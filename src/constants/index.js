@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  sejall,
+  vijua,
+  vegadata,
   financial,
   jobit,
   moviesflex,
@@ -123,7 +122,7 @@ const experiences = [
   {
     title: "Front-end Developer",
     company_name: "Vijua",
-    icon: starbucks,
+    icon: vijua,
     iconBg: "#383E56",
     date: "APRIL 2022 - Present",
     points: [
@@ -138,7 +137,7 @@ const experiences = [
   {
     title: "Front-end Developer",
     company_name: "Vega Data",
-    icon: tesla,
+    icon: vegadata,
     iconBg: "#E6DEDD",
     date: "JAN 2022 - APRIL 2022",
     points: [
@@ -154,7 +153,7 @@ const experiences = [
   {
     title: "Front-end Developer",
     company_name: "Sejall technology 84",
-    icon: shopify,
+    icon: sejall,
     iconBg: "#383E56",
     date: "AUG 2021 - JAN 2022",
     points: [
@@ -166,19 +165,7 @@ const experiences = [
       "Stay updated with the latest front-end development trends and technologies, and recommend innovative solutions to improve our digital products.",
     ],
   },
-  // {
-  //   title: "Software Engineer Intern",
-  //   company_name: "PredCo AI",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Apr 2023 - Present",
-  //   points: [
-  //   "Designed the framework of IOT sensor data integration to an end-to-end ML based analytics software.",
-  //   "Created PRD and wireframes for the product, and developed the frontend using ReactJS.",
-  //   "Developed Rest APIs, aligning with frontend flow.",
-  //   "Integrated Elastic Search and Kibana Dashboards via dynamic APIs.",
-  //   ],
-  // },
+
 ];
 
 const testimonials = [
