@@ -139,7 +139,7 @@ const experiences = [
     company_name: "Vega Data",
     icon: vegadata,
     iconBg: "#E6DEDD",
-    date: "JAN 2022 - APRIL 2022",
+    date: "OCT 2021 - APRIL 2022",
     points: [
       "Collaborate closely with data analysts and designers to create visually appealing and interactive data visualizations using HTML, CSS, and JavaScript.",
       "Develop and implement responsive and user-friendly web interfaces for data analysis tools and applications.",
@@ -155,7 +155,7 @@ const experiences = [
     company_name: "Sejall technology 84",
     icon: sejall,
     iconBg: "#383E56",
-    date: "AUG 2021 - JAN 2022",
+    date: "APRIL 2021 - OCT 2021",
     points: [
       "Collaborate with the design team to translate visual concepts into functional user interfaces using HTML, CSS, and JavaScript.",
       "Develop responsive and mobile-friendly websites and web applications that provide seamless user experiences across various devices and platforms.",
